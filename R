@@ -1,6 +1,4 @@
-[file name]: YSL HUB Chatgpt Made It💔.txt
-[file content begin]
--- Thugsense
+
 --[[
 
     Assign different flags to each element to prevent from configs overriding eachother
