@@ -12,11 +12,16 @@ end
 local gameid = game.PlaceId
 
 local myscripts = {
-    [102500767640476] = function() -- miami streets
-        loadstring(game:HttpGet("https://api.junkie-development.de/api/v1/luascripts/public/6c2d5c77eb8707eb7368077b9fe400273aece25db3df8898d5fdec3925e454e2/download"))() -- dead atp 💔
+    [136801880565837] = function() -- FPS Flick
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/worldcheat/PulseGrid/refs/heads/main/Fps%20flick%20%20mobile%20%2B%20pc"))() 
         return true
     end,
     
+        [102500767640476] = function() -- miami streets
+        loadstring(game:HttpGet("https://api.junkie-development.de/api/v1/luascripts/public/6c2d5c77eb8707eb7368077b9fe400273aece25db3df8898d5fdec3925e454e2/download"))()
+        return true
+    end,
+
     [11177482306] = function() -- streetz wars 2
         loadstring(game:HttpGet("https://raw.githubusercontent.com/worldcheat/PulseGrid/refs/heads/main/Sw2", true))()
         return true
