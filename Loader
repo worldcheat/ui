@@ -1,39 +1,29 @@
--- nooo
-local function ShowNotif(title, text, time)
+local function notif(title, text, dur)
     pcall(function()
         game:GetService("StarterGui"):SetCore("SendNotification", {
             Title = title,
             Text = text,
-            Duration = time or 3
+            Duration = dur or 5
         })
     end)
 end
 
-local gameid = game.PlaceId
+local id = game.PlaceId
+local games = {} -- supported games
 
-local myscripts = {
-    [136801880565837] = function() -- FPS Flick
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/worldcheat/PulseGrid/refs/heads/main/Fps%20flick%20%20mobile%20%2B%20pc"))() 
-        return true
-    end,
-    
-        [102500767640476] = function() -- miami streets
-        loadstring(game:HttpGet("https://api.junkie-development.de/api/v1/luascripts/public/6c2d5c77eb8707eb7368077b9fe400273aece25db3df8898d5fdec3925e454e2/download"))()
-        return true
-    end,
-
-    [11177482306] = function() -- streetz wars 2
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/worldcheat/PulseGrid/refs/heads/main/Sw2", true))()
-        return true
-    end,    
-}
-
-local mygame = myscripts[gameid]
-
-if mygame then
-    ShowNotif("PulseGrid", "Game supported")
-    mygame()
-    return
+games[136801880565837] = function() -- fps flick
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/worldcheat/PulseGrid/refs/heads/main/Fps%20flick%20%20mobile%20%2B%20pc"))()
 end
 
-ShowNotif("PulseGrid", "Game not supported!", 4)
+games[11177482306] = function() -- streetz wars 2
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/worldcheat/PulseGrid/refs/heads/main/Sw2", true))()
+end
+
+local run = games[id]
+
+if run then
+    notif("PulseGrid", "game supported")
+    run()
+else
+    notif("PulseGrid", "game not supported", 4)
+end
