@@ -16,7 +16,7 @@ games[11177482306] = function() -- sw2
 end
 
 games[77888146126370] = function() -- chicago
-  https://raw.githubusercontent.com/worldcheat/PulseGrid/refs/heads/main/Chicago%20streets
+ loadstring(game:HttpGet("https://raw.githubusercontent.com/worldcheat/PulseGrid/refs/heads/main/Chicago%20streets"))()
 end
 
 games[136801880565837] = function() -- fps flick
