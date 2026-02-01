@@ -15,9 +15,9 @@ games[11177482306] = function() -- sw2
    loadstring(game:HttpGet("https://raw.githubusercontent.com/worldcheat/PulseGrid/refs/heads/main/Sw2"))()
 end
 
-games[77888146126370] = function() -- chicago
- loadstring(game:HttpGet("https://raw.githubusercontent.com/worldcheat/PulseGrid/refs/heads/main/Chicago%20streets"))()
-end
+--games[77888146126370] = function() -- chicago
+-- loadstring(game:HttpGet("https://raw.githubusercontent.com/worldcheat/PulseGrid/refs/heads/main/Chicago%20streets"))()
+--end
 
 games[136801880565837] = function() -- fps flick
     loadstring(game:HttpGet("https://raw.githubusercontent.com/worldcheat/PulseGrid/refs/heads/main/Fps%20flick%20%20mobile%20%2B%20pc"))()
