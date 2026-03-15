@@ -196,7 +196,7 @@ do
 	local Themes = {
         ["Preset"] = {
             ["Window Outline"] = FromRGB(0, 34, 37),
-            ["Accent"] = FromRGB(255,255,255),
+            ["Accent"] = FromRGB(94, 213, 213),
             ["Background 1"] = FromRGB(17, 21, 27),
             ["Text"] = FromRGB(255, 255, 255),
             ["Inline"] = FromRGB(19, 25, 31),
@@ -3293,8 +3293,8 @@ do
 			Data = Data or {}
 
 			local Window = {
-				Name = Data.Name or Data.name or "Bronx Dupe",
-				Logo = Data.Logo or Data.logo or "121644323941494",
+				Name = Data.Name or Data.name or "tuff",
+				Logo = Data.Logo or Data.logo or "nil",
 
 				Pages = {},
 				Items = {},
