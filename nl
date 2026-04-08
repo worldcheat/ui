@@ -5859,7 +5859,7 @@ function NeverLose:CreateWindow(Config)
 		Config = NeverLose:ProcessParams(Config , {
 			Profile = NeverLose.UserProfile,
 			Username = LocalPlayer.DisplayName,
-			Expires = "discord.gg/pulsegrid",
+			Expires = "Expires : Never",
 		});
 
 		AccountName.Text = Config.Username;
