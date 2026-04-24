@@ -1,0 +1,59 @@
+{
+	"name": "Inter",
+	"faces": [
+		{
+			"name": "Thin",
+			"weight": 100,
+			"style": "normal",
+			"assetId": "rbxassetid://12187277209"
+		},
+		{
+			"name": "Extra Light",
+			"weight": 200,
+			"style": "normal",
+			"assetId": "rbxassetid://12187293441"
+		},
+		{
+			"name": "Light",
+			"weight": 300,
+			"style": "normal",
+			"assetId": "rbxassetid://12187268450"
+		},
+		{
+			"name": "Regular",
+			"weight": 400,
+			"style": "normal",
+			"assetId": "rbxassetid://12187266066"
+		},
+		{
+			"name": "Medium",
+			"weight": 500,
+			"style": "normal",
+			"assetId": "rbxassetid://12187336822"
+		},
+		{
+			"name": "Semi Bold",
+			"weight": 600,
+			"style": "normal",
+			"assetId": "rbxassetid://12187254443"
+		},
+		{
+			"name": "Bold",
+			"weight": 700,
+			"style": "normal",
+			"assetId": "rbxassetid://12187275575"
+		},
+		{
+			"name": "Extra Bold",
+			"weight": 800,
+			"style": "normal",
+			"assetId": "rbxassetid://12187267750"
+		},
+		{
+			"name": "Black",
+			"weight": 900,
+			"style": "normal",
+			"assetId": "rbxassetid://12187359223"
+		}
+	]
+}
